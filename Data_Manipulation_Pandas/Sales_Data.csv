@@ -1,0 +1,21 @@
+Order ID,Product,Category,Quantity,Price,Order Date,Customer Location
+1001,Wireless Mouse,Electronics,2,25.99,2023-12-01,New York
+1002,Notebook,A5 Stationery,5,3.49,2023-12-02,Los Angeles
+1003,Gaming Chair,Furniture,1,189.99,2023-12-02,Chicago
+1004,Smartphone,Electronics,1,699.99,2023-12-03,Houston
+1005,Water Bottle,Kitchenware,3,15.99,2023-12-03,Seattle
+1006,Desk Lamp,Furniture,2,39.99,2023-12-04,Boston
+1007,Headphones,Electronics,1,89.99,2023-12-04,San Francisco
+1008,Running Shoes,Sports,1,129.99,2023-12-05,Austin
+1009,Blender,Kitchenware,1,49.99,2023-12-05,Miami
+1010,Travel Backpack,Accessories,1,59.99,2023-12-06,Orlando
+1011,Wireless Keyboard,Electronics,1,45.99,2023-12-06,Atlanta
+1012,Coffee Mug,Kitchenware,4,7.99,2023-12-07,Denver
+1013,Standing Desk,Furniture,1,249.99,2023-12-07,Phoenix
+1014,Yoga Mat,Sports,2,25.99,2023-12-08,San Diego
+1015,LED Monitor,Electronics,1,199.99,2023-12-08,Dallas
+1016,Laptop Stand,Furniture,1,29.99,2023-12-09,San Jose
+1017,Notebook,B5 Stationery,3,4.99,2023-12-09,Columbus
+1018,Electric Kettle,Kitchenware,1,34.99,2023-12-10,Las Vegas
+1019,Sneakers,Sports,2,99.99,2023-12-10,Portland
+1020,Desk Organizer,Furniture,1,19.99,2023-12-11,Charlotte

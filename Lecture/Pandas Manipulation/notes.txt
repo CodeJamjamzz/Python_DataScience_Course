@@ -1,0 +1,28 @@
+
+When you left 23 hours ago, you worked on Aggregating DataFrames, chapter 2 of the course Data Manipulation with pandas. 
+Here is what you covered in your last lesson:
+
+You learned about adding new columns to a DataFrame in pandas, an essential skill for data manipulation and feature engineering. 
+This process allows you to enrich your data based on existing columns or calculations. Here are the key points:
+
+Creating New Columns: You discovered how to create new columns in a DataFrame by performing operations on existing columns. 
+For example, to convert a dog's height from centimeters to meters, you would use DataFrame["new_column"] = DataFrame["existing_column"] / 100.
+
+Calculating BMI for Dogs: You applied this concept to calculate the Body Mass Index (BMI) for dogs, using the formula BMI = weight_kg / (height_m)^2. 
+This involved creating a new column where each entry is derived from two existing columns.
+
+Combining Skills: You combined various pandas skills to identify tall, skinny dogs. 
+This involved subsetting rows based on BMI, sorting by height, and selecting specific columns to view the result.
+
+Real-world Application: You practiced these skills with a real dataset by adding a column to track the total number of homeless individuals and families, and another to calculate the proportion of homeless individuals per state. 
+The code snippet below illustrates how to add these columns:
+
+# Add total col as sum of individuals and family_members
+homelessness["total"] = homelessness["individuals"] + homelessness["family_members"]
+
+# Add p_individuals col as proportion of total that are individuals
+homelessness["p_individuals"] = homelessness["individuals"] / homelessness["total"]
+Advanced Manipulation: Finally, you learned to combine data manipulation techniques to answer complex questions, such as identifying states with a high number of homeless individuals per capita.
+This lesson equipped you with the ability to transform and enrich data in pandas, laying the groundwork for more advanced data analysis tasks.
+
+The goal of the next lesson is to introduce more advanced techniques for manipulating and analyzing data using pandas DataFrames.

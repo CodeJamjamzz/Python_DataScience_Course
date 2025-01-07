@@ -30,3 +30,22 @@ for lab, row in cars.iterrows() :
     cars["COUNTRY"] = cars["country"].apply(str.upper)
 
 print(cars)
+
+
+
+# Notes:
+# Iterating over a DataFrame using iterrows() which provides the row label and data as a Pandas Series in each iteration. For example:
+
+# for lab, row in cars.iterrows():
+#     print(lab)
+#     print(row)
+
+# Selecting specific data from each row using the column name, like row['column_name'], to print or manipulate data.
+
+# Adding a new column to a DataFrame within a loop. You saw how to use iterrows() to iterate over each row and then use loc or direct assignment to add or modify a column based on data from other columns.
+
+# The efficiency of using apply() for element-wise operations on columns over using a for loop with iterrows(). For instance, converting a column to uppercase:
+
+# cars["COUNTRY"] = cars["country"].apply(str.upper)
+
+# This approach is not only more concise but also significantly faster for larger datasets.
